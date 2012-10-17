@@ -47,7 +47,8 @@
 
 
 
-extern int snprintf (char* , size_t, const char* , ...)
+//extern int snprintf (char* , size_t, const char* , ...)
+
 #ifdef __GNUC__
     __attribute__ ((format (printf,3,4)));
 #else

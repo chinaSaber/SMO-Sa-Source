@@ -2,13 +2,10 @@ char *genver="
 __VERSION_H__
 _NEW_SERVER_
 _SERVER_NUMS
-SERVER_VERSION 'SMO v8.0.4.7a For Linux Debug Marking'
-SERVER_VERSION 'SMO v8.0.4.7a For Linux'
+_JZ_VIPCODE								//吉仔 ADD VIP代碼
 UNIQUE_KEYCODEITEM	100
 UNIQUE_KEYCODEPET	'i'
 _SA_VERSION_70				// (可開放) WON ADD 石器時代7.0 的版本控制
-_DEFAULT_PKEY 'smosmosmo'	// (可開放)( 石器 6.0 )
-_RUNNING_KEY  '20070328'	// (可開放)( 石器 6.0 )
 _VERSION_20010911	        // (可開放) 9.11 編碼修改 
 _TEST_PETCREATE             // (不可開) ANDY 測寵的GM指令
 _FAMILY_MANORNUM_CHANGE	// CoolFish 用來修改裝園數量(4.0)
@@ -19,7 +16,7 @@ FMPOINTNUM				10   // (4.0) 有據點家族的最大數量
 FAMILY_MAXHOME			9	// (4.0) 家族據點
 MANORNUM                9	// (4.0) 莊園數量
 FMPOINTNUM				9   // (4.0) 有據點家族的最大數量
-_FMVER21		        // (可開放) 家族職掌功能  
+_FMVER21		        // (可開放) 家族職掌功\能  
 _PERSONAL_FAME	    	// (可開放) Arminius 8.30 家族個人聲望  
 _EVERYONE_RIDE	    	// (可開放) Robin 0924 騎寵平民化  
 __ATTACK_MAGIC          // (可開放)	提供戰場中的攻擊性咒術
@@ -29,8 +26,8 @@ _NEWSAVE                // (可開放) Robin
 _STORECHAR              // (可開放) Robin
 _DROPCHECK              // (可開放) Robin 防止重複丟道具
 _DROPCHECK2             // (可開放) Robin 防止重複丟道具
-_PET_TRANS           	// (可開放) 寵物轉生功能
-_NEW_WARPMAN        	// (可開放) NPC多重WARP功能
+_PET_TRANS           	// (可開放) 寵物轉生功\能
+_NEW_WARPMAN        	// (可開放) NPC多重WARP功\能
 _PET_TALK	            // (可開放) 寵物對話
 _PET_LIMITLEVEL	        // (可開放) 特殊寵設計(瑪蕾)
 _MAP_NOEXIT	            // (可開放) 特殊地圖不得原登&原登回指定點
@@ -56,7 +53,7 @@ _CFREE_petskill         // (可開放) 需要petskill1.txt 才能開) 新學習寵物技能技能
 _data_newreadfile       // (可開放) 新的server setup.cf 檔案 包含 itemset1.txt petskill1.txt 兩個新檔
 _ITEM_MAXUSERNUM        // (可開放) 新 itemset1.txt ITEM 使用次數
 _PET_TALKPRO      		// (可開放) 寵物對話加強	& 改 END
-_PRO_NPCFIX	     		// (可開放) NPC功能加強
+_PRO_NPCFIX	     		// (可開放) NPC功\能加強
 _PRO_BATTLEENEMYSKILL	// (可開放) 戰鬥加強	提升NPC的AI技能
 _NEW_WARPPOINT		    // (可開放) 傳送點多重條件判斷WARP
 _FIX_CHECKITEM	      	// (可開放) 道具不做非法檢查
@@ -73,7 +70,7 @@ _ITEM_WARP_FIX_BI           // (可開放) shan fix bbi to bi. code:shan
 _SKILL_DAMAGETOHP			// (可開放) ANDY 嗜血技 
 _Skill_MPDAMAGE				// (可開放) ANDY MP傷害
 _WAEI_KICK					// (可開放) ANDY 跨星球踢人
-_BATTLE_TIMESPEED			// (可開放) ANDY 戰鬥時間 測試(北京不必開，擋加速功能)
+_BATTLE_TIMESPEED			// (可開放) ANDY 戰鬥時間 測試(北京不必開，擋加速功\能)
 _NEW_RIDEPETS				// (可開放) ANDY 新騎寵
 _FIXBUG_ATTACKBOW			// (可開放) ANDY 修正騎寵使用投擲武器bug
 _NPCCHANGE_PLAYERIMG		// (可開放) ANDY NPC改變玩家圖號, 強制落馬,認玩家圖號 (測完)
@@ -237,12 +234,12 @@ _FIX_MESSAGE				// (可開放) WON ADD 修改WORKER封包內容 (北京&韓國不必開)
 _PETSKILL_SHOWMERCY         // (可開) Change 寵技:手下留情
 _NPC_ActionFreeCmp          // (可開) Change 替NPC參數加入新的比較方式
 _NPC_ProfessionTrans      // (可開) Change 替職業NPC加入判斷轉生
-_NPC_NewDelPet            // (可開) Change 替NPC加入刪除寵物(原本就有了,只是用warpman使用時不成功,所以先做一個頂一下)
+_NPC_NewDelPet            // (可開) Change 替NPC加入刪除寵物(原本就有了,只是用warpman使用時不成功\,所以先做一個頂一下)
 _CHANGEGALAXY	// (可開) 星系移民　Robin 2003/10
 _ALLDOMAN_DEBUG           // (可開) Change 修正重啟server後排行榜消失bug
 _CHRISTMAS_REDSOCKS_NEW	  // (可開) Change 新聖誕紅襪
 _PETSKILL_COMBINED      // (可開) Change 寵技:難得糊塗 [綜合魔法(依參數亂數取出魔法)]
-_NPC_ADDWARPMAN1			// (可開放) Change npcgen_warpman增加功能(設定組隊人數、設定組隊男女人數)
+_NPC_ADDWARPMAN1			// (可開放) Change npcgen_warpman增加功\能(設定組隊人數、設定組隊男女人數)
 _ITEM_QUITPARTY			// (可開放) Change 隊伍解散時特定道具即會消失
 _ITEM_ADDEQUIPEXP       // (可開) Change 裝備後經驗值增加
 _ITEM_LVUPUP            // (可開) Change 突破寵物等級限制的藥(玄武專用)
@@ -251,10 +248,10 @@ _ITEM_UNBECOMEPIG       // (可開) Change 烏力化的解藥
 _PET_TALKBBI            // (可開) Change 增加判斷bbi
 _ITEM_USEMAGIC			// (可開) Change 由道具使用魔法
 _ITEM_PROPERTY          // (可開) Change 改變四屬性道具
-_SUIT_ADDENDUM          // (可開) Change 替套裝增加功能 (_SUIT_ITEM要開)
+_SUIT_ADDENDUM          // (可開) Change 替套裝增加功\能 (_SUIT_ITEM要開)
 _ITEM_CHECKDROPATLOGOUT   // (可開) Change 檢查回紀錄點時身上有無登出後消失道具,若有,不可回紀錄點
-_FM_MODIFY				// 家族功能修改(開放)
-_CHANNEL_MODIFY		// 頻道功能整合(開放)
+_FM_MODIFY				// 家族功\能修改(開放)
+_CHANNEL_MODIFY		// 頻道功\能整合(開放)
 _STANDBYPET		// Robin 待機寵封包
 _PROSKILL_OPTIMUM	// Robin 職業技能處理最佳化
 _PETSKILL_OPTIMUM	// Robin 寵物技能處理最佳化
@@ -265,13 +262,15 @@ _NPC_DEPOTPET				// (可開放) Robin 人物寵物倉庫共用
 _TIMEOUTKICK	// (可開) 時段制踢人　Robin 2003/10
 _MAGIC_RESIST_EQUIT			// (可開) WON ADD 職業抗性裝備
 _LOG_OTHER // 雜項訊息專用LOG
+_NEWOPEN_MAXEXP			// (不可開) ANDY MAX經驗值
 _NPC_EXCHANGEMANTRANS   // (可開) Change 替exchangeman加入判斷轉生
 _ANGEL_SUMMON	// Robin 天使召喚
-_STREET_VENDOR		// 擺攤功能(開放)
-_WATCH_EVENT			// 查詢任務功能(開放)
+_STREET_VENDOR		// 擺\攤功\能(開放)
+_WATCH_EVENT			// 查詢任務功\能(開放)
 _NEW_MANOR_LAW		// 新莊園規則(開放)
 _MAP_TIME					// 特殊地圖,會倒數(開放)
 _PETSKILL_LER			// 雷爾技能(開放)
+_TEACHER_SYSTEM		// 導師系統(開放)
 _FIX_MAGIC_RESIST				// (可開) Change 職業魔法抗性
 _ADD_DUNGEON					// (可開) Change 追加地牢
 _PROFESSION_ADDSKILL			// (可開) Change 追加職業技能
@@ -280,8 +279,8 @@ _TRANS_6						// (可開) Change 人物6轉
 _PET_2TRANS					// (可開) Change 寵物2轉
 _PET_2LIMITLEVEL				// (可開) Change 幫助寵物2轉的瑪蕾
 _MAGICSTAUTS_RESIST			// (可開) Change (火電冰)抗性精靈
-_EQUIT_RESIST					// (可開) Change 單一裝備抗性(可抗單一功能異常狀態)有抗火 雷 冰 虛弱 魔障 沉默 落馬
-_SUIT_TWFWENDUM				// (可開) Change 四屬性套裝功能 (_SUIT_ITEM要開)
+_EQUIT_RESIST					// (可開) Change 單一裝備抗性(可抗單一功\能異常狀態)有抗火 雷 冰 虛弱 魔障 沉默 落馬
+_SUIT_TWFWENDUM				// (可開) Change 四屬性套裝功\能 (_SUIT_ITEM要開)
 _EXCHANGEMAN_REQUEST_DELPET	// (可開) Change 替exchangeman的TYPE:REQUEST增加刪除寵物
 _DEL_DROP_GOLD			// 刪除地上過時的石幣	Robin
 _ITEM_STONE				// cyg 奇怪的石頭
@@ -290,12 +289,12 @@ _DEF_FMFREETIME			// cyg GM指令 退出家族時間限制設為0
 _DEF_GETYOU				// cyg GM指令 查詢自己兩格  圍內的玩家帳號
 _DEF_NEWSEND			// cyg GM指令 傳送玩家時可加句子也可不加
 _DEF_SUPERSEND			// cyg GM指令 可傳送已某帳號為中心附近3格內所有玩家
-_SUIT_ADDPART3			// (可開) Change 套裝功能第三彈 迴避提高% 沉默抗性提高% 敏提高% 防提高% 攻提高%
+_SUIT_ADDPART3			// (可開) Change 套裝功\能第三彈 迴避提高% 沉默抗性提高% 敏提高% 防提高% 攻提高%
 _PETSKILL_2TIMID		// (可開) Change 怯戰第二版(狂獅怒吼)
 CAVALRY_DEBUG			// (暫時開) Change 座騎攻擊除錯中
 _SHOW_FUSION			// (可開) Change 融合寵物在CLIENT端只顯示轉生數,修改為融合寵顯示為融合(client端也要開)
-_CONTRACT				// (可開) Robin 契約功能 
-_FONT_SIZE				// (可開) Robin 字型大小功能
+_CONTRACT				// (可開) Robin 契約功\能 
+_FONT_SIZE				// (可開) Robin 字型大小功\能
 _PROSK99				// (可開) Change 檢查職技等級送白狼
 _TIME_TICKET			// Robin 限時入場 森林捉寵用
 _HALLOWEEN_EFFECT		// 萬聖節特效
@@ -306,14 +305,25 @@ _PETSKILL_BATTLE_MODEL	// 寵物技能戰鬥模組
 _RACEMAN				// cyg 獵寵大會新npc
 _PETSKILL_ANTINTER		// (可開) Change 寵技:蟻之葬 參考_PETSKILL_2TIMID
 _PETSKILL_REGRET		// (可開) Change 寵技:憾甲一擊 參考_SONIC_ATTACK
-_SUIT_ADDPART4			// (可開) Change 套裝功能第四彈 中毒攻擊% 加強法師魔法(機率30%) 抵抗法師的魔法
+_SUIT_ADDPART4			// (可開) Change 套裝功\能第四彈 中毒攻擊% 加強法師魔法(機率30%) 抵抗法師的魔法
 _STONEAGEA8XXX_S						//吉仔 8.0開關
-_ITEM_S_TEMP						//吉仔 8.0道具封包支持，此功能為臨時功能
+_JOBDAILY				// cyg 任務日誌功\能
+_ITEM_S_TEMP						//吉仔 8.0道具封包支持，此功\能為臨時功\能
 _JZ_NEW_CONF						//吉仔 ADD 新CF字段 (不包括創建人物送道具字段)
 _JZ_NEW_GMCOMMAND				//吉仔 ADD 新GM指令
 _JZ_IMPROVE_GMCOMMAND		//吉仔 ADD 改進GM指令
 _JZ_NEW_ITEM1						//吉仔 ADD 新增道具
 _JZ_NEW_ADDMEMBERPOINT	//吉仔 ADD 會員點卷
-_JZ_MANORTES						//莊園測試
-<<Generated at 五 4月 20 04:18:14 CST 2007>>
+_JZ_MANOR_FIX_DFW				//吉仔修改固定時間下戰書
+_JZ_RIDE								//自定義騎寵
+_JZ_CAPTURE_FREES				//吉仔 ADD 文件描述捕捉條件
+_JZ_CF_DELPETITEM				//吉仔 ADD CF定義登陸時刪除指定寵物和物品
+_JZ_MAXLEVEL  200				//吉仔 ADD 最高等級包括CF設置多少轉才能達到最高等級
+_JZ_CIRC_AN							//吉仔 ADD 循環公告
+_JZ_LOCKIP	100					//吉仔 ADD GM指令查玩家IP，封玩家IP(還有SAAC更新未完成)
+_JZ_NEWLOCK							//吉仔 ADD 改進互斥鎖處理模式
+_JZ_NPCBUF							//吉仔 ADD NPC緩存、NPC計時器、NPC文件更新檢查機制
+_JZ_MEMREDUCE						//吉仔 ADD 內存節省項目
+_JZ_BEST								//吉仔 ADD 優化封包處理-場景管理
+<<Generated at Wed 17 Oct 2012 23:07:45 EST>>
 ";

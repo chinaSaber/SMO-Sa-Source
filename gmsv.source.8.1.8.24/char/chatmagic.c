@@ -3,7 +3,6 @@
 #include <string.h>
 #include <ctype.h>
 #include <math.h>
-#include <malloc.h>
 #include <time.h>
 #include <stdlib.h>
 #include "common.h"
@@ -5448,7 +5447,7 @@ void CHAR_CHAT_DEBUG_reloopan( int charaindex, char *message)
 {
 	if(!net_loadloopan(getloopanfile()))
 		CHAR_talkToCli( charaindex, -1,"重讀循環公告..失敗", CHAR_COLORWHITE);
-	CHAR_talkToCli( charaindex, -1,"重讀循環公告..成功", CHAR_COLORWHITE);
+	CHAR_talkToCli( charaindex, -1,"重讀循環公告..成功\", CHAR_COLORWHITE);
 }
 #endif
 

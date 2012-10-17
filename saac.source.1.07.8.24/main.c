@@ -30,7 +30,6 @@
 #include <sys/wait.h>
 #include <getopt.h>
 #include <stdio.h>
-#include <malloc.h>
 #include <strings.h>
 #include <string.h>
 #include <unistd.h>
@@ -813,17 +812,20 @@ int main( int argc , char **argv )
         
         bzero( &s, sizeof(s));
         s.sa_handler = sighandle;
-        s.sa_flags = SA_NOMASK;
+        s.sa_flags = SA_NODEFER;
+        //s.sa_flags = SA_NOMASK; disable for mac
         sigaction( SIGTERM,  &s, &os );
 
         bzero( &s, sizeof(s));
         s.sa_handler = sighandle;
-        s.sa_flags = SA_NOMASK;
+        s.sa_flags = SA_NODEFER;
+        //s.sa_flags = SA_NOMASK;
         sigaction( SIGINT,  &s, &os );
 
         bzero( &s, sizeof( s ));
         s.sa_handler = SIG_IGN;
-        s.sa_flags = SA_NOMASK;
+        s.sa_flags = SA_NODEFER;
+        //s.sa_flags = SA_NOMASK;
         sigaction( SIGPIPE, &s, &os );
 
     }

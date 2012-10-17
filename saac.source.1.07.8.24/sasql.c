@@ -28,7 +28,6 @@
 #include <sys/wait.h>
 #include <getopt.h>
 #include <stdio.h>
-#include <malloc.h>
 #include <strings.h>
 #include <string.h>
 #include <unistd.h>
@@ -69,7 +68,7 @@ int worksockfd;
 
 #include "char.h"
 
-#include <mysql/mysql.h>
+#include <mysql.h>
 
 #define BOOL int
 #define FALSE 0

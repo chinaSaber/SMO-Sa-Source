@@ -5,7 +5,6 @@
 #include "util.h"
 #include "saacproto_serv.h"
 
-#include <malloc.h>
 #include <stdio.h>
 #include <time.h>
 #include <sys/types.h>

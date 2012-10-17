@@ -194,6 +194,9 @@ int login_game_server( int ti, char *svname, char *svpas, char *result,
 void sigusr2(int a);
 static void initWorkerPort( void );
 void checkMissionTimelimit( void);
+static int initMissionTable( void );
+static int initRankTable( void );
+
 #ifdef _ANGEL_SUMMON
 typedef enum
 {

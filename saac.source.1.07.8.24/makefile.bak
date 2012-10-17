@@ -9,7 +9,7 @@ CC = gcc
 
 #加入mysql資料庫功能
 CFLAGS=-march=x86-64 -w -O3 -pipe -freg-struct-return -minline-all-stringops -mmmx -msse -msse2 -I /Users/fanminjian/Downloads/mysql-5.5.28-osx10.6-x86_64/include/ $(INCFLAGS)
-MYSQL=-L /Users/fanminjian/Downloads/mysql-5.5.28-osx10.6-x86_64/lib -lmysqlclient -lz -lm -I./
+MYSQL=-L /Users/fanminjian/Downloads/mysql-5.5.28-osx10.6-x86_64/lib/mysql -lmysqlclient -lz -lm -I./
 
 TOP=../..
 PROG = saac
